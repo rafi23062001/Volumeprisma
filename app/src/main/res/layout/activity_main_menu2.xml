@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu2Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_nama"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_prisma_segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prisma Segitiga"
+        android:textSize="20dp"
+        android:onClick="Pindah"/>
+    <Button
+        android:id="@+id/btn_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_web_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BROWSER WEB"
+        android:textSize="20dp"/>
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HitungVolumeApp</string>
+    <string name="activity_title">Volume Prisma Segitiga</string>
+    <string name="tv_length_id">Panjang</string>
+    <string name="tv_width_id">Lebar</string>
+    <string name="tv_height_id">Tinggi</string>
+    <string name="btn_count_id">Hitung</string>
+    <string name="text_result_id">Hasil</string>
+</resources>
